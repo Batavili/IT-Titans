@@ -2,6 +2,35 @@
   font-size: 80px;
   font-weight: 700;
 
-  color: transparent;                /* inside = 0 opacity */
-  -webkit-text-stroke: 2px white;     /* border = 1 opacity */
+  color: transparent;
+  -webkit-text-stroke: 2px white;  
+}
+
+body{
+  background-color: black;
+   position: relative;
+  margin: 0;
+}
+
+body::before {
+  content: "🛡️⚔️🏹🔨";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10vw;
+  font-weight: 800;
+  color: rgba(200, 100, 100, 0.5);
+  z-index: -1;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.navbar .dropdown-menu .dropdown-item{
+  background-color: black;
+  color: white;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: white;
+  color: blue;
 }
