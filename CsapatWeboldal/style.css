@@ -1,0 +1,7 @@
+.outline-text {
+  font-size: 80px;
+  font-weight: 700;
+
+  color: transparent;                /* inside = 0 opacity */
+  -webkit-text-stroke: 2px white;     /* border = 1 opacity */
+}
