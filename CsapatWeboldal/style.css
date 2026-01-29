@@ -34,3 +34,11 @@ body::before {
   background-color: white;
   color: blue;
 }
+
+*{
+  color:white
+}
+
+.faicon{
+  outline-color: blue;
+}
