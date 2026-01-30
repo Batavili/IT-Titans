@@ -11,13 +11,14 @@ html {
   padding: 4rem 1rem;
 }
 
-.intro .intro2 .intro3 .btn {
+.intro .intro2 .intro3 .intro4 .intro5 .btn {
   padding: 0.75rem 2rem;
   font-weight: 600;
 }
 
 body {
   scroll-snap-type: y mandatory;
+  background-color: #000000;
 }
 
 section, main {
@@ -27,25 +28,25 @@ section, main {
 .intro2 {
   height: 100vh;
   color: black;
-  background-color: green;
+  background: rgba(51, 41, 143, 0.377);
 }
 
 .intro3 {
   height: 100vh;
   color: black;
-  background-color: rebeccapurple;
+  background: rgba(51, 41, 143, 0.377);
 }
 
 .intro4 {
   height: 100vh;
   color: black;
-  background-color: red;
+  background: rgba(51, 41, 143, 0.377);
 }
 
 .intro5 {
   height: 25vh;
   color: black;
-  background-color: blue;
+  background: rgba(51, 41, 143, 0.377);
 }
 .navbar .dropdown-menu .dropdown-item{
   background-color: black;
@@ -61,10 +62,17 @@ section, main {
 }
 
 .hover-grow:hover {
-  transform: scale(1.05);
+  transform: scale(1.04);
   box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
 }
 
+.hover-grow2 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-grow2:hover {
+  transform: scale(1.05);
+}
 *{
   color:white;
 }
@@ -79,3 +87,6 @@ section, main {
   height: 5vh;
 }
 
+.navopacity{
+  background-color: rgba(0, 0, 0, 0.15);
+}

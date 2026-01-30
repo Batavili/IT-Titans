@@ -11,7 +11,54 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top scrolled navopacity">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#Main">Kezdőlap</a>
+        </li>
 
+        <li class="nav-item">
+          <a class="nav-link" href="#Szolgaltatasok">Szolgáltatásaink</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#Rolunk">Rólunk</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#Munkaink">Munkáink</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+          >
+            Partnereink
+          </a>
+          <ul class="dropdown-menu bg-black">
+            <li><a class="dropdown-item" href="#">Cyber Osint</a></li>
+            <li><a class="dropdown-item" href="#">Commit & Pray</a></li>
+            <li><a class="dropdown-item" href="#">HorizonCode</a></li>
+          </ul>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Bejelentkezés</a>
+        </li>
+        </li>
+      </ul>
+  </div>
+
+  <div class="container"></div>
+   <a class="navbar-brand" href="#Rolunk"></a>
+    </div>
+    
+</nav>
    <section class="intro d-flex align-items-center justify-content-center text-center finisher-header" id="Main">
     <div>
       <h1 class="display-3 fw-bold">IT Titans</h1>
@@ -55,7 +102,6 @@
           <p>Egyedi programok elkészítése.</p>
         </div>
       </div>
-      <a href="#Main" class="btn btn-light mt-4 col-2 hover-grow mx-auto">Kezdőlap</a>
     </div>
     </div>
   </section>
@@ -222,16 +268,15 @@
 </div>
 </div>
 
-<a href="#Main" class="btn btn-light mt-4 col-1 hover-grow mx-auto">Kezdőlap</a>
     </div>
     </div>
   </section>
 
 
-  <section class="intro2 d-flex align-items-center justify-content-center text-center" id="Munkaink">
+  <section class="intro4 d-flex align-items-center justify-content-center text-center" id="Munkaink">
     <div>
       <h1 class="display-3 fw-bold mb-5">Munkáink</h1>
-        <div class="table-responsive">
+        <div class="table-responsive hover-grow2">
       <table class="table table-dark">
   <tr>
     <th>Helyzet</th>
@@ -239,9 +284,12 @@
     <th>Közepes feladatok</th>
     <th>Nehéz feladatok</th>
     <th>Brutális feladatok</th>
+    <th>Összes</th>
   </tr>
+  <tbody class="table-group-divider">
   <tr>
     <td>felvett feladatok</td>
+    <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -253,9 +301,11 @@
     <td>0</td>
     <td>0</td>
     <td>0</td>
+    <td>0</td>
   </tr>
   <tr>
     <td>leadott feladatok</td>
+    <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -267,9 +317,11 @@
     <td>0</td>
     <td>0</td>
     <td>0</td>
+    <td>0</td>
   </tr>
   <tr>
     <td>elrontott feladatok</td>
+    <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
@@ -281,38 +333,37 @@
     <td>0</td>
     <td>0</td>
     <td>0</td>
+    <td>0</td>
   </tr>
+</tbody>
 </table>
     </div>
     <div class="container">
-      <div><p>Összes pontszám: 0</p></div>
-      <a href="#Main" class="btn btn-light mt-4 col-3 hover-grow mx-auto">Kezdőlap</a>
     </div>
     </div>
   </section>
 
-  <main class="intro4 d-flex align-items-center justify-content-center text-center" id="Partnereink" >
+  <main class="intro5 d-flex align-items-center justify-content-center text-center" id="Partnereink" >
     <div>
       <h1 class="display-3 fw-bold mb-5">Partnereink</h1>
         <div class="row g-4">
       <div class="col-4">
-        <div class="hover-grow">
+        <div class="hover-grow2">
           <h5>Cyber Osint</h5>
         </div>
       </div>
 
       <div class="col-4">
-        <div class="hover-grow">
+        <div class="hover-grow2">
           <h5>Commit&Pray</h5>
         </div>
       </div>
 
       <div class="col-4">
-        <div class="hover-grow">
+        <div class="hover-grow2">
           <h5>HorizonCode</h5>
         </div>
       </div>
-      <a href="#Main" class="btn btn-light mt-4 col-3 hover-grow mx-auto">Kezdőlap</a>
     </div>
     </div>
   </main>
