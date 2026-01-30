@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.intro {
+  height: 100vh;
+  color: white;
+}
+
+.content {
+  padding: 4rem 1rem;
+}
+
+.intro .intro2 .intro3 .btn {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+}
+
+body {
+  scroll-snap-type: y mandatory;
+}
+
+section, main {
+  scroll-snap-align: start;
+}
+
+.intro2 {
+  height: 100vh;
+  color: black;
+  background-color: green;
+}
+
+.intro3 {
+  height: 100vh;
+  color: black;
+  background-color: rebeccapurple;
+}
