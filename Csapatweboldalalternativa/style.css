@@ -35,3 +35,46 @@ section, main {
   color: black;
   background-color: rebeccapurple;
 }
+
+.intro4 {
+  height: 100vh;
+  color: black;
+  background-color: red;
+}
+
+.intro5 {
+  height: 25vh;
+  color: black;
+  background-color: blue;
+}
+.navbar .dropdown-menu .dropdown-item{
+  background-color: black;
+  color: white;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: white;
+  color: blue;
+}
+
+.hover-grow {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-grow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+*{
+  color:white;
+}
+
+.doboz{
+  background: rgba(0, 0, 0, 0.5);
+  height: 12.5vh;
+}
+
+.doboz2{
+  background: rgba(0, 0, 0, 0.5);
+  height: 5vh;
+}
