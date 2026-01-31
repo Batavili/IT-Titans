@@ -2,20 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.intro {
-  height: 100vh;
-  color: white;
-}
-
-.content {
-  padding: 4rem 1rem;
-}
-
-.intro .intro2 .intro3 .intro4 .intro5 .btn {
-  padding: 0.75rem 2rem;
-  font-weight: 600;
-}
-
 body {
   scroll-snap-type: y mandatory;
   background-color: #000000;
@@ -23,6 +9,15 @@ body {
 
 section, main {
   scroll-snap-align: start;
+}
+
+*{
+  color:white;
+}
+
+.intro {
+  height: 100vh;
+  color: white;
 }
 
 .intro2 {
@@ -55,6 +50,11 @@ section, main {
   background: rgba(109, 41, 143, 0.377);
 }
 
+.intro .intro2 .intro3 .intro4 .intro5 .intro6 .btn {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+}
+
 .navbar .dropdown-menu .dropdown-item{
   background-color: black;
   color: white;
@@ -80,9 +80,6 @@ section, main {
 .hover-grow2:hover {
   transform: scale(1.05);
 }
-*{
-  color:white;
-}
 
 .doboz{
   background: rgba(0, 0, 0, 0.5);
@@ -94,6 +91,11 @@ section, main {
   height: 5vh;
 }
 
-.navopacity{
+.backgroundopacity{
   background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+.backgroundopacity2{
+  background-color: rgba(0, 0, 0, 0.1);
 }
