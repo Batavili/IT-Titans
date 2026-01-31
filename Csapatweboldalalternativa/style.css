@@ -34,20 +34,27 @@ section, main {
 .intro3 {
   height: 100vh;
   color: black;
-  background: rgba(51, 41, 143, 0.377);
+  background: rgba(41, 119, 143, 0.377);
 }
 
 .intro4 {
   height: 100vh;
   color: black;
-  background: rgba(51, 41, 143, 0.377);
+  background: rgba(143, 41, 41, 0.377);
 }
 
 .intro5 {
+  height: 100vh;
+  color: black;
+  background: rgba(143, 41, 102, 0.377);
+}
+
+.intro6 {
   height: 25vh;
   color: black;
-  background: rgba(51, 41, 143, 0.377);
+  background: rgba(109, 41, 143, 0.377);
 }
+
 .navbar .dropdown-menu .dropdown-item{
   background-color: black;
   color: white;
@@ -79,7 +86,7 @@ section, main {
 
 .doboz{
   background: rgba(0, 0, 0, 0.5);
-  height: 12.5vh;
+  height: 10vh;
 }
 
 .doboz2{
@@ -88,5 +95,5 @@ section, main {
 }
 
 .navopacity{
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.25);
 }
