@@ -4,6 +4,7 @@ html {
 
 body {
   scroll-snap-type: y mandatory;
+  background-color: rgba(0, 0, 0, 1);
 }
 
 section, main {
@@ -13,7 +14,12 @@ section, main {
 *{
   color:white;
 }
-
+.black{
+  color:black;
+}
+.white{
+  color:white;
+}
 .intro {
   height: 100vh;
   color: white;
@@ -41,7 +47,7 @@ section, main {
 .intro5 {
   height: 100vh;
   color: black;
-  background: rgba(143, 41, 102, 0.377);
+  background: rgba(143, 78, 41, 0.377);
 }
 
 .intro6 {
@@ -73,7 +79,7 @@ section, main {
 }
 
 .hover-grow2 {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .hover-grow2:hover {
@@ -97,4 +103,9 @@ section, main {
 
 .backgroundopacity2{
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.link{
+    text-decoration: none;
+    color: white;
 }

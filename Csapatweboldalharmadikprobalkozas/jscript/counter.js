@@ -32,7 +32,6 @@ const observer = new IntersectionObserver(
           animateCounter(counter);
         });
 
-        // Optional: stop observing once done
         observer.disconnect();
       }
     });
