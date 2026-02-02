@@ -6,25 +6,25 @@ const link = document.getElementById("text");
 
 const sections = [
     {
-        bg: "#1e1e1e",
+        bg: "#1C1C1C",
         title: "IT Titans",
         text: "Bővebben rólunk",
         link: "ITT.html"
     },
     {
-        bg: "#2c3e50",
+        bg: "#552222",
         title: "Cyber Osynt",
         text: "Bővebben partnerünkről",
         link: "https://ceg.atanarur.hu/cyberosint/"
     },
     {
-        bg: "#295a43",
+        bg: "#727272",
         title: "Commit & Pray",
         text: "Bővebben partnerünkről",
         link: "https://ceg.atanarur.hu/cnp/"
     },
     {
-        bg: "#724a0f",
+        bg: "#225534",
         title: "Horizon Code",
         text: "Bővebben partnerünkről",
         link: "https://ceg.atanarur.hu/horizoncode/"
