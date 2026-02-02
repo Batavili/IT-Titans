@@ -23,31 +23,30 @@ section, main {
 .intro {
   height: 100vh;
   color: white;
-  background: rgba(0, 0, 0, 0.377);
 }
 
 .intro2 {
   height: 100vh;
   color: black;
-  background: rgba(51, 41, 143, 0.377);
+  background: rgba(28, 28, 28, 0.377);
 }
 
 .intro3 {
   height: 100vh;
   color: black;
-  background: rgba(41, 119, 143, 0.377);
+  background: rgba(85, 34, 34, 0.377);
 }
 
 .intro4 {
   height: 100vh;
   color: black;
-  background: rgba(143, 41, 41, 0.377);
+  background: rgba(230, 230, 230, 0.377);
 }
 
 .intro5 {
   height: 100vh;
   color: black;
-  background: rgba(143, 78, 41, 0.377);
+  background: rgba(34, 85, 52, 0.377);
 }
 
 .intro6 {
@@ -102,10 +101,16 @@ section, main {
 
 
 .backgroundopacity2{
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.125);
 }
 
 .link{
     text-decoration: none;
     color: white;
+}
+
+.background{
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
