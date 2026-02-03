@@ -101,7 +101,7 @@ section, main {
 
 
 .backgroundopacity2{
-  background-color: rgba(0, 0, 0, 0.125);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .link{
@@ -113,4 +113,9 @@ section, main {
   background-image: url(../img/background.jpg);
   background-size: cover;
   background-attachment: fixed;
+}
+
+.image{
+  width: fit-content;
+  height: fit-content;
 }
