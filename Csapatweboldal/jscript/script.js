@@ -13,7 +13,7 @@ const sections = [
     },
     {
         bg: "#552222",
-        title: "Cyber Osynt",
+        title: "Cyber OSINT",
         text: "Bővebben partnerünkről",
         link: "https://ceg.atanarur.hu/cyberosint/"
     },
