@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-snap-type: y mandatory;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+section, main {
+  scroll-snap-align: start;
+}
+
+*{
+  color:white;
+}
+.black{
+  color:black;
+}
+.white{
+  color:white;
+}
+.intro {
+  height: 100vh;
+  color: white;
+}
+
+.intro2 {
+  height: 100vh;
+  color: black;
+  background: rgba(28, 28, 28, 0.377);
+}
+
+.intro3 {
+  height: 100vh;
+  color: black;
+  background: rgba(85, 34, 34, 0.377);
+}
+
+.intro4 {
+  height: 100vh;
+  color: black;
+  background: rgba(230, 230, 230, 0.377);
+}
+
+.intro5 {
+  height: 100vh;
+  color: black;
+  background: rgba(34, 85, 52, 0.377);
+}
+
+.intro6 {
+  height: 10vh;
+  color: black;
+}
+
+.intro .intro2 .intro3 .intro4 .intro5 .intro6 .btn {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+}
+
+.navbar .dropdown-menu .dropdown-item{
+  background-color: black;
+  color: white;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: white;
+  color: blue;
+}
+
+.hover-grow {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-grow:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.hover-grow2 {
+  transition: transform 0.3s ease;
+}
+
+.hover-grow2:hover {
+  transform: scale(1.05);
+}
+
+.doboz{
+  background: rgba(0, 0, 0, 0.5);
+  height: 10vh;
+}
+
+.doboz2{
+  background: rgba(0, 0, 0, 0.5);
+  height: 5vh;
+}
+
+.backgroundopacity{
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+.backgroundopacity2{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.background{
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.image{
+  width: fit-content;
+  height: fit-content;
+}
